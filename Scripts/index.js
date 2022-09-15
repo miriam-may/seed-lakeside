@@ -7,12 +7,34 @@ window.onload = function(){
         duration: 1500,
         iterations: 1
     })
-}
-
 let firstP = document.getElementById('t1')
 let secondP = document.getElementById('t2')
-var fired=0
 
+firstP.animate([
+    {opacity: 0, color:'#000000'},
+    {opacity: 1, color: '#000000'}
+],{
+duration: 1700,
+iterations: 1
+})
+
+firstP.style.display="block"
+
+secondP.animate([
+    {opacity: 0, color:'#000000'},
+    {opacity: 1, color: '#000000'}
+],{
+duration: 1700,
+iterations: 1
+})
+
+secondP.style.display="block"
+
+
+}
+
+
+/*
 function scrollFunction(){
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 && fired < 1){
         firstP.animate([
@@ -44,7 +66,7 @@ if(document.body.scrollTop > 250 || document.documentElement.scrollTop > 200 && 
 }
 
 window.onscroll = function(){ scrollFunction(); }
-
+*/
 let building = document.getElementById('building');
 let buildingtext = document.getElementById('building_text');
 let maintenence = document.getElementById('maintenence');
