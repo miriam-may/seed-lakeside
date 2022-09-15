@@ -1,0 +1,265 @@
+body{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    /*background-image: url('../Images/pexels-pixabay-mountains.jpg');*/
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
+    color: #08b;
+    font-size: 30pt;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0%;
+
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+}
+
+.nav{
+    background-color: #08b;
+    width: 80%;
+    justify-self: center;
+}
+
+.left{
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    color: #fff;
+    padding: 15px;
+}
+
+.nav-link:hover{
+    color: rgb(130, 187, 207)
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bed-one {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+}
+
+.all-the-beds {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bed-34 {
+    position: relative;
+    border-radius: 30%;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+
+.link {
+    position: relative;
+    top: 47%;
+    left: -35%;
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
+.clickable{
+    background-color: #ffffff;
+}
+
+.center{
+    text-align: center;
+}
+
+.centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px double rgb(130, 187, 207)
+}
+
+.smlmargin{
+    margin: 20px;
+}
+
+.clickable:hover{
+    background-color: #08b;
+    color: #fff;
+}
+
+.clickable:focus{
+    background-color: #08b;
+    color: #fff;
+}
+
+
+
+.spring-onion {
+    position: relative;
+    top: 230px;
+    left: -685px;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 100px;
+    height: 100px;
+    z-index: 2000;
+}
+
+.silver-beet {
+    position: relative;
+    top: 130px;
+    left: -500px;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 100px;
+    height: 300px;
+    z-index: 2000;
+}
+
+.beetroot {
+    position: relative;
+    top: 250px;
+    left: -350px;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 100px;
+    height: 100px;
+    z-index: 2000;
+}
+
+.main{
+    margin: 30px;
+    display: none;
+}
+
+.main1{
+    margin: 40px;
+}
+
+.header{
+    font-size: 46pt;
+}
+
+.large{
+    font-size: 18pt;
+}
+
+.break{
+    width: 100%;
+    height: 70px;
+}
+
+.footer{
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picborder{
+    height: 270px;
+    width: 525px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picborder:hover{
+    box-shadow: 7px 7px 5px #808080;
+    border: none;
+}
+
+.picborder:focus{
+    box-shadow: 7px 7px 5px #808080;
+    border: none;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.formtext{
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #808080;
+    margin: 5px;
+}
+
+.area{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #808080;
+    margin: 5px;
+}
+
+.formtext:focus{
+    background-color: #add8e6;
+}
+
+.radio{
+    width: 20px;
+    height: 20px;
+}
+
+.submit{
+    width:fit-content;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #808080;
+    margin: 5px;
+    background-color: #3108e6;
+    color: #fff;
+    font-size: 15pt;
+}
+
+
