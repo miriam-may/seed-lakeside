@@ -3,7 +3,11 @@ body{
     height: 100%;
     width: 100%;
     margin: 0;
-}
+    display: flex;
+    
+    justify-items: center; 
+    flex-direction: column;
+  }
 
 html {
     height: 100%;
@@ -13,9 +17,9 @@ html {
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     justify-items: center;
+    justify-self: center;
 }
 
 .banner{
@@ -84,13 +88,13 @@ ul {
 .all-the-beds {
     display: flex;
     justify-self: center;
-    justify-content: center;
+    
     height: 100%;
 }
 
 .bed-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-self: center;
     justify-content: center;
     width: 100%;
@@ -131,7 +135,7 @@ ul {
     justify-content: center;
     width: 1000px;
     height: 800px;
-    border: 1px green solid;
+ 
 }
 
 .centre{
@@ -205,6 +209,11 @@ ul {
     font-size: 18pt;
 }
 
+.hidden {
+    text-align: center;
+    display: none;
+}
+
 .break{
     width: 100%;
     height: 70px;
@@ -245,38 +254,51 @@ ul {
     display: block;
 }
 
-.formtext{
-    width: 250px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #808080;
-    margin: 5px;
+@media (max-width: 900px){
+    .link{
+
+        height: 30px;
+        width: 49px;
+    }
 }
 
-.area{
-    width: 400px;
-    height: 200px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #808080;
-    margin: 5px;
+@media (max-width: 780px) {
+
+    .banner {
+        font-size: 18pt;
+    }
+
+    .nav-link {
+        font-size: 12pt;
+    }
+
+    .footer {
+        font-size: 8pt;
+    }
+
+    .header {
+        font-size: 20pt;
+    }
+
+    .large {
+        font-size: 12pt;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .link{
+
+        height: 25px;
+        width: 40px;
+    }
+    
 }
 
-.formtext:focus{
-    background-color: #add8e6;
-}
-
-.radio{
-    width: 20px;
-    height: 20px;
-}
-
-.submit{
-    width:fit-content;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #808080;
-    margin: 5px;
-    background-color: #3108e6;
-    color: #fff;
-    font-size: 15pt;
-}
 
 

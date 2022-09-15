@@ -4,7 +4,7 @@ window.onload = function(){
         {opacity: 0, color: '#000'},
         {opacity: 1, color: '#08b'}
     ], {
-        duration: 1500,
+        duration: 2000,
         iterations: 1
     })
 let firstP = document.getElementById('t1')
@@ -24,7 +24,7 @@ secondP.animate([
     {opacity: 0, color:'#000000'},
     {opacity: 1, color: '#000000'}
 ],{
-duration: 1700,
+duration: 2000,
 iterations: 1
 })
 
