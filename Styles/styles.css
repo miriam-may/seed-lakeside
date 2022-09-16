@@ -86,16 +86,20 @@ ul {
 
 
 .all-the-beds {
+    background-image: url('../Images/all-the-beds.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-self: center;
     justify-content: center;
-    width: 1840px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
 }
 
 .all-bed-image {
-    width: 1080px;
-    height: 790px;
+    width: 100%;
+    height: auto;
 }
 
 .bed-container {
@@ -118,30 +122,27 @@ ul {
 
 .link {
     position: relative;
-    top: 42%;
-    left: -38%;
-    width: 70px;
-    height: 50px;
+    /*top: 45%;
+   /* width: 70px;
+    height: 50px; */
     border-radius: 40%;
     border: 3px solid #ff0000;
 }
 
 .bed-26 {
     position: relative;
-    top: 53%;
-    left: -30em;
-    width: 70px;
-    height: 50px;
+    /*top: 53%;
+    /*width: 70px;
+    height: 50px; */
     border-radius: 40%;
     border: 3px solid #ff0000;
 }
 
 .bed-29 {
     position: relative;
-    top: 44%;
-    left: -18%;
-    width: 70px;
-    height: 50px;
+    /*top: 50%;
+    /*width: 70px;
+    height: 50px; */
     border-radius: 40%;
     border: 3px solid #ff0000;
 }
@@ -314,9 +315,9 @@ ul {
     display: block;
 }
 
-@media (max-width: 1090px) {
+/* @media (max-width: 1090px) {
 
-    .all-the-beds {
+   /* .all-the-beds {
         width: 1080px;
         height: auto;
     }
@@ -324,9 +325,9 @@ ul {
     .all-bed-image {
         width: 700px;
         height: 500px;
-    }
+    } */
 
-    .link {
+   /* .link {
         top: 42%;
         left: -42%;
     }
@@ -339,20 +340,12 @@ ul {
     .bed-29 {
         top: 44%;
         left: -23%;
-    }
+    } 
 }
 
 @media (max-width: 850px){
 
-    .all-the-beds {
-        width: 800px;
-        height: auto;
-    }
-
-    .all-bed-image {
-        width: 650px;
-        height: auto;
-    }
+    
 
     .link {
         top: 42%;
@@ -368,7 +361,7 @@ ul {
         top: 44%;
         left: -23%;
     }
-}
+}*/
 
 @media (max-width: 730px) {
 
