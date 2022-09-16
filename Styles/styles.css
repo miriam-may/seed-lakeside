@@ -192,8 +192,8 @@ ul {
     left: -66%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 10%;
-    height: 10%;
+    width: 90px;
+    height: 90px;
     z-index: 2000;
 }
 
@@ -203,8 +203,8 @@ ul {
     left: -50%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 12%;
-    height: 15%;
+    width: 100px;
+    height: 115px;
     z-index: 2000;
 }
 
@@ -214,8 +214,8 @@ ul {
     left: -30%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 10%;
-    height: 10%;
+    width: 90px;
+    height: 90px;
     z-index: 2000;
 }
 
@@ -225,8 +225,8 @@ ul {
     left: -30%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 10%;
-    height: 10%;
+    width: 90px;
+    height: 90px;
     z-index: 2000;
 }
 
@@ -236,8 +236,8 @@ ul {
     left: -70%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 10%;
-    height: 10%;
+    width: 90px;
+    height: 90px;
     z-index: 2000;
 }
 
@@ -247,8 +247,8 @@ ul {
     left: -50%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 30%;
-    height: 30%;
+    width: 200px;
+    height: 200px;
     z-index: 2000;
 }
 
