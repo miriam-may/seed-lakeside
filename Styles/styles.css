@@ -88,8 +88,14 @@ ul {
 .all-the-beds {
     display: flex;
     justify-self: center;
-    
-    height: 100%;
+    justify-content: center;
+    width: 1840px;
+    height: 800px;
+}
+
+.all-bed-image {
+    width: 1080px;
+    height: 790px;
 }
 
 .bed-container {
@@ -101,7 +107,7 @@ ul {
     height: 100%;
 }
 
-.bed-34 {
+.bed-31 {
     position: relative;
     border-radius: 30%;
     width: 100%;
@@ -112,8 +118,28 @@ ul {
 
 .link {
     position: relative;
-    top: 47%;
-    left: -35%;
+    top: 42%;
+    left: -38%;
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
+.bed-26 {
+    position: relative;
+    top: 53%;
+    left: -30em;
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
+.bed-29 {
+    position: relative;
+    top: 44%;
+    left: -18%;
     width: 70px;
     height: 50px;
     border-radius: 40%;
@@ -139,7 +165,8 @@ ul {
 }
 
 .centre{
-    align-items: center;
+    justify-self: center;
+    justify-content: center;
     border: 5px double rgb(130, 187, 207);
     width: 100%;
     height: 100%;
@@ -189,6 +216,39 @@ ul {
     border: 3px solid #ff0000;
     width: 10%;
     height: 10%;
+    z-index: 2000;
+}
+
+.rainbow-chard{
+    position: relative;
+    top: 46%;
+    left: -30%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 10%;
+    height: 10%;
+    z-index: 2000;
+}
+
+.lettuce {
+    position: relative;
+    top: 25%;
+    left: -70%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 10%;
+    height: 10%;
+    z-index: 2000;
+}
+
+.celery {
+    position: relative;
+    top: 25%;
+    left: -50%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    width: 30%;
+    height: 30%;
     z-index: 2000;
 }
 
@@ -254,15 +314,63 @@ ul {
     display: block;
 }
 
-@media (max-width: 900px){
-    .link{
+@media (max-width: 1090px) {
 
-        height: 30px;
-        width: 49px;
+    .all-the-beds {
+        width: 1080px;
+        height: auto;
+    }
+
+    .all-bed-image {
+        width: 700px;
+        height: 500px;
+    }
+
+    .link {
+        top: 42%;
+        left: -42%;
+    }
+
+    .bed-26 {
+    top: 53%;
+    left: -26em;
+    }
+
+    .bed-29 {
+        top: 44%;
+        left: -23%;
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 850px){
+
+    .all-the-beds {
+        width: 800px;
+        height: auto;
+    }
+
+    .all-bed-image {
+        width: 650px;
+        height: auto;
+    }
+
+    .link {
+        top: 42%;
+        left: -52%;
+    }
+
+    .bed-26 {
+        top: 51%;
+        left: -26em;
+    }
+
+    .bed-29 {
+        top: 44%;
+        left: -23%;
+    }
+}
+
+@media (max-width: 730px) {
 
     .banner {
         font-size: 18pt;
@@ -292,11 +400,7 @@ ul {
         display: block;
     }
 
-    .link{
-
-        height: 25px;
-        width: 40px;
-    }
+   
     
 }
 
