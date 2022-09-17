@@ -25,3 +25,15 @@ function revealCelery(){
 
 celery.onclick = revealCelery, true;
 
+function wresize() {
+    let bedheight = beds.clientHeight;
+    let bedwidth = beds.clientWidth;
+
+
+    celery.style.top = (bedheight/10) + 'px';
+
+    celery.style.left = -(bedwidth/100) +'px';
+}
+
+window.onresize = wresize;
+
