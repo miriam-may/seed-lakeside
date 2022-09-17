@@ -128,8 +128,8 @@ ul {
     justify-content: center;
     width: 1008px;
     height: 737px;
-    position: fixed;
-    top: 25%;
+    position: absolute;
+    top: 200px;
     left: 0%;
 }
 
@@ -292,6 +292,7 @@ ul {
 .hidden {
     text-align: center;
     display: none;
+    
 }
 
 .break{
@@ -306,7 +307,7 @@ ul {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 100%;
+    top: 800px;
 }
 
 .picborder{
@@ -330,6 +331,8 @@ ul {
 
 .hide{
     display: none;
+    position: relative;
+    top: 800px;
 }
 
 .show{
