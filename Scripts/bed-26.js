@@ -2,7 +2,20 @@ let rainbow = document.getElementById('rainbow-chard');
 let rainbow_text = document.getElementById('rainbow_text');
 let lettuce = document.getElementById('lettuce');
 let lettuce_text = document.getElementById('lettuce_text');
+let beds = document.getElementById('twentysix')
 
+let bedheight = beds.clientHeight;
+let bedwidth = beds.clientWidth;
+
+rainbow.style.height = (bedheight/10) + 'px';
+rainbow.style.top = (bedheight/2.5) + 'px';
+rainbow.style.width = (bedwidth/20) + 'px';
+rainbow.style.left = -(bedwidth/1000) +'px';
+
+lettuce.style.height = (bedheight/10) + 'px';
+lettuce.style.top = (bedheight/2.2) + 'px';
+lettuce.style.width = (bedwidth/20) + 'px';
+lettuce.style.left = (bedwidth/7) +'px';
 
 function revealRainbow(){
     if(lettuce_text.style.display="block"){
@@ -42,17 +55,3 @@ function revealLettuce(){
 rainbow.onclick = revealRainbow, true;
 lettuce.onclick = revealLettuce, true;
 
-let beds = document.getElementById('twentysix')
-
-let bedheight = beds.clientHeight;
-let bedwidth = beds.clientWidth;
-
-rainbow.style.height = (bedheight/10) + 'px';
-rainbow.style.top = (bedheight/2.5) + 'px';
-rainbow.style.width = (bedwidth/20) + 'px';
-rainbow.style.left = -(bedwidth/1000) +'px';
-
-lettuce.style.height = (bedheight/10) + 'px';
-lettuce.style.top = (bedheight/2.2) + 'px';
-lettuce.style.width = (bedwidth/20) + 'px';
-lettuce.style.left = (bedwidth/7) +'px';

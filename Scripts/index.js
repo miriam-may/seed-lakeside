@@ -56,7 +56,7 @@ y_a = bedheight/y; //the amount of y's in height
 building.style.height = (bedheight/10) + 'px';
 building.style.top = (y_a * (3.7)) + 'px';
 building.style.width = (bedwidth/20) + 'px';
-building.style.left = -(bedwidth/9.3) +'px';
+building.style.left = -(bedwidth/3.9) +'px';
 
 maintenence.style.height = (bedheight/10) + 'px';
 maintenence.style.top = (bedheight/2.2) + 'px';
@@ -66,7 +66,7 @@ maintenence.style.left = (bedwidth/30) +'px';
 frontend.style.height = (bedheight/10) + 'px';
 frontend.style.top = (bedheight/4.8) + 'px';
 frontend.style.width = (bedwidth/20) + 'px';
-frontend.style.left = (bedwidth/10.9) +'px';
+frontend.style.left = (bedwidth/4.9) +'px';
 
 
 
