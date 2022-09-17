@@ -93,6 +93,41 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
+    aspect-ratio: 1858/737;
+}
+
+.bed-twenty-six{
+    background-image: url('../Images/bed-26.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bed-twenty-nine {
+    background-image: url('../Images/bed-29.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bed-thirty-one {
+    background-image: url('../Images/bed-31.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
@@ -189,67 +224,55 @@ ul {
 
 .spring-onion {
     position: relative;
-    top: 18%;
-    left: -72%;
+    
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 90px;
-    height: 90px;
+    
     z-index: 2000;
 }
 
 .silver-beet {
     position: relative;
-    top: 27%;
-    left: -50%;
+   
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 100px;
-    height: 115px;
+   
     z-index: 2000;
 }
 
 .beetroot {
     position: relative;
-    top: 40%;
-    left: -26%;
+   
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 90px;
-    height: 90px;
+    
     z-index: 2000;
 }
 
 .rainbow-chard{
     position: relative;
-    top: 46%;
-    left: -30%;
+    
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 90px;
-    height: 90px;
+   
     z-index: 2000;
 }
 
 .lettuce {
     position: relative;
-    top: 25%;
-    left: -70%;
+    
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 90px;
-    height: 90px;
+   
     z-index: 2000;
 }
 
 .celery {
     position: relative;
-    top: 25%;
-    left: -50%;
+    
     border-radius: 30%;
     border: 3px solid #ff0000;
-    width: 200px;
-    height: 200px;
+    
     z-index: 2000;
 }
 

@@ -33,46 +33,33 @@ secondP.style.display="block"
 
 }
 
-
-/*
-function scrollFunction(){
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 && fired < 1){
-        firstP.animate([
-            {opacity: 0, color:'#000000'},
-            {opacity: 1, color: '#000000'}
-        ],{
-        duration: 1700,
-        iterations: 1
-        })
-
-        firstP.style.display="block"
-
-        fired=1
-    
-    }
-if(document.body.scrollTop > 250 || document.documentElement.scrollTop > 200 && fired < 3){
-        secondP.animate([
-            {opacity: 0, color:'#000000'},
-            {opacity: 1, color: '#000000'}
-        ],{
-        duration: 1700,
-        iterations: 1
-        })
-
-        secondP.style.display="block"
-
-        fired+=2
-}
-}
-
-window.onscroll = function(){ scrollFunction(); }
-*/
 let building = document.getElementById('building');
 let buildingtext = document.getElementById('building_text');
 let maintenence = document.getElementById('maintenence');
 let maintext = document.getElementById('main_text');
 let frontend = document.getElementById('front_end');
 let fronttext = document.getElementById('front_text');
+
+let beds = document.getElementById('thirtyone')
+
+let bedheight = beds.clientHeight;
+let bedwidth = beds.clientWidth;
+
+
+building.style.height = (bedheight/10) + 'px';
+building.style.top = (bedheight/2.7) + 'px';
+building.style.width = (bedwidth/20) + 'px';
+building.style.left = -(bedwidth/9.3) +'px';
+
+maintenence.style.height = (bedheight/10) + 'px';
+maintenence.style.top = (bedheight/2.2) + 'px';
+maintenence.style.width = (bedwidth/20) + 'px';
+maintenence.style.left = (bedwidth/30) +'px';
+
+frontend.style.height = (bedheight/10) + 'px';
+frontend.style.top = (bedheight/4.8) + 'px';
+frontend.style.width = (bedwidth/20) + 'px';
+frontend.style.left = (bedwidth/10.9) +'px';
 
 
 
@@ -95,6 +82,21 @@ function revealBuild(){
             duration: 2000,
             iterations: 1
         });
+        building.style.height = (bedheight/10) + 'px';
+        building.style.top = (bedheight/2.7) + 'px';
+        building.style.width = (bedwidth/20) + 'px';
+        building.style.left = -(bedwidth/9.3) +'px';
+
+        maintenence.style.height = (bedheight/10) + 'px';
+        maintenence.style.top = (bedheight/2.2) + 'px';
+        maintenence.style.width = (bedwidth/20) + 'px';
+        maintenence.style.left = (bedwidth/30) +'px';
+
+        frontend.style.height = (bedheight/10) + 'px';
+        frontend.style.top = (bedheight/4.8) + 'px';
+        frontend.style.width = (bedwidth/20) + 'px';
+        frontend.style.left = (bedwidth/10.9) +'px';
+
 }
 
 function revealMain(){
@@ -116,6 +118,22 @@ function revealMain(){
         duration: 2000,
         iterations: 1
     });
+
+    building.style.height = (bedheight/10) + 'px';
+    building.style.top = (bedheight/2.7) + 'px';
+    building.style.width = (bedwidth/20) + 'px';
+    building.style.left = -(bedwidth/9.3) +'px';
+
+    maintenence.style.height = (bedheight/10) + 'px';
+    maintenence.style.top = (bedheight/2.2) + 'px';
+    maintenence.style.width = (bedwidth/20) + 'px';
+    maintenence.style.left = (bedwidth/30) +'px';
+
+    frontend.style.height = (bedheight/10) + 'px';
+    frontend.style.top = (bedheight/4.8) + 'px';
+    frontend.style.width = (bedwidth/20) + 'px';
+    frontend.style.left = (bedwidth/10.9) +'px';
+
 }
 
 function revealFront(){
@@ -136,6 +154,22 @@ function revealFront(){
         duration: 2000,
         iterations: 1
     });
+
+    building.style.height = (bedheight/10) + 'px';
+    building.style.top = (bedheight/2.7) + 'px';
+    building.style.width = (bedwidth/20) + 'px';
+    building.style.left = -(bedwidth/9.3) +'px';
+
+    maintenence.style.height = (bedheight/10) + 'px';
+    maintenence.style.top = (bedheight/2.2) + 'px';
+    maintenence.style.width = (bedwidth/20) + 'px';
+    maintenence.style.left = (bedwidth/30) +'px';
+
+    frontend.style.height = (bedheight/10) + 'px';
+    frontend.style.top = (bedheight/4.8) + 'px';
+    frontend.style.width = (bedwidth/20) + 'px';
+    frontend.style.left = (bedwidth/10.9) +'px';
+
 }
 
 
@@ -144,6 +178,3 @@ building.onclick = revealBuild, true;
 maintenence.onclick =  revealMain, true;
 frontend.onclick = revealFront, true;
 
-
-
-        
