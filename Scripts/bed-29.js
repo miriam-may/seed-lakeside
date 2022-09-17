@@ -1,4 +1,4 @@
-let celery = document.getElementById('celery');
+let celery = document.getElementById('celeryid');
 let celery_text = document.getElementById('celery_text');
 
 function revealCelery(){

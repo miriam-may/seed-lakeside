@@ -129,7 +129,8 @@ ul {
     width: 1858px;
     height: 737px;
     position: fixed;
-    top: 250px;
+    top: 25%;
+    left: 0%;
 }
 
 .bg {
