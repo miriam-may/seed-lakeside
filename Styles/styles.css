@@ -380,11 +380,12 @@ ul {
 @media (max-width: 730px) {
 
     .banner {
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
     .nav-link {
-        font-size: 12pt;
+        font-size: 10pt;
+        padding: 8px;
     }
 
     .footer {
