@@ -266,9 +266,11 @@ ul {
 .celery {
     position: relative;
     
+    width: 10%;
+    height: 20%;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    
+    cursor: pointer;
     z-index: 2000;
 }
 
@@ -333,6 +335,18 @@ ul {
     display: none;
     position: relative;
     top: 800px;
+}
+
+.hidecelery{
+    display: none;
+    position: relative;
+    top: 350px;
+}
+
+.hide26 {
+    display: none;
+    position: relative;
+    top: 250px;
 }
 
 .show{
