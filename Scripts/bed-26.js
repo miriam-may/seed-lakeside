@@ -1,3 +1,12 @@
+let banner = document.getElementById('home_banner')
+    banner.animate([
+        {opacity: 0, color: '#000'},
+        {opacity: 1, color: '#08b'}
+    ], {
+        duration: 2000,
+        iterations: 1
+    })
+
 let rainbow = document.getElementById('rainbow-chard');
 let rainbow_text = document.getElementById('rainbow_text');
 let lettuce = document.getElementById('lettuce');
