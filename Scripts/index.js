@@ -48,6 +48,32 @@ let bedwidth = beds.clientWidth;
 x = 15
 y = 11.5
 
+let imag31 = document.getElementById('imag-31');
+if(window.innerWidth < 580) {
+    
+    let iwidth = 370;
+    let iheight = imag31.clientHeight;
+   
+    building.style.height = (iwidth/7) + 'px';
+    building.style.top = (iheight/3) + 'px';
+    building.style.width = (iwidth/7) + 'px';
+    building.style.left = -(iwidth/1) +'px';
+
+    maintenence.style.height = (iwidth/7) + 'px';
+    maintenence.style.top = (iheight/3) + 'px';
+    maintenence.style.width = (iwidth/7) + 'px';
+    maintenence.style.left = -(iwidth/1.4) +'px';
+
+    frontend.style.height = (iwidth/7) + 'px';
+    frontend.style.top = (iheight/2.5) + 'px';
+    frontend.style.width = (iwidth/7) + 'px';
+    frontend.style.left = -(iwidth/1.9) +'px';
+
+    
+
+    }
+    else {
+
 //approx ratio of 15(w) to 11.5(h)
 x_a = bedwidth/x; //the amount of x's in width
 y_a = bedheight/y; //the amount of y's in height
@@ -68,8 +94,39 @@ frontend.style.top = (bedheight/2.5) + 'px';
 frontend.style.width = (bedwidth/20) + 'px';
 frontend.style.left = (bedwidth/8.5) +'px';
 
+function wresize(){
+    let bedheight = beds.clientHeight;
+    let bedwidth = beds.clientWidth;
+
+    x = 15
+    y = 11.5
+
+    //approx ratio of 15(w) to 11.5(h)
+    x_a = bedwidth/x; //the amount of x's in width
+    y_a = bedheight/y; //the amount of y's in height
 
 
+    building.style.height = (bedheight/10) + 'px';
+    building.style.top = (y_a * (3.7)) + 'px';
+    building.style.width = (bedwidth/20) + 'px';
+    building.style.left = -(bedwidth/8.9) +'px';
+
+
+    maintenence.style.height = (bedheight/10) + 'px';
+    maintenence.style.top = (bedheight/2.2) + 'px';
+    maintenence.style.width = (bedwidth/20) + 'px';
+    maintenence.style.left = (bedwidth/30) +'px';
+
+    frontend.style.height = (bedheight/10) + 'px';
+    frontend.style.top = (bedheight/2.5) + 'px';
+    frontend.style.width = (bedwidth/20) + 'px';
+    frontend.style.left = (bedwidth/8.5) +'px';
+}
+
+
+window.onresize = wresize;
+
+    }
 
 
 function revealBuild(){
@@ -146,34 +203,3 @@ building.onclick = revealBuild, true;
 maintenence.onclick =  revealMain, true;
 frontend.onclick = revealFront, true;
 
-function wresize(){
-    let bedheight = beds.clientHeight;
-    let bedwidth = beds.clientWidth;
-
-    x = 15
-    y = 11.5
-
-    //approx ratio of 15(w) to 11.5(h)
-    x_a = bedwidth/x; //the amount of x's in width
-    y_a = bedheight/y; //the amount of y's in height
-
-
-    building.style.height = (bedheight/10) + 'px';
-    building.style.top = (y_a * (3.7)) + 'px';
-    building.style.width = (bedwidth/20) + 'px';
-    building.style.left = -(bedwidth/8.9) +'px';
-
-
-    maintenence.style.height = (bedheight/10) + 'px';
-    maintenence.style.top = (bedheight/2.2) + 'px';
-    maintenence.style.width = (bedwidth/20) + 'px';
-    maintenence.style.left = (bedwidth/30) +'px';
-
-    frontend.style.height = (bedheight/10) + 'px';
-    frontend.style.top = (bedheight/2.5) + 'px';
-    frontend.style.width = (bedwidth/20) + 'px';
-    frontend.style.left = (bedwidth/8.5) +'px';
-}
-
-
-window.onresize = wresize;
