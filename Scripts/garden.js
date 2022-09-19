@@ -25,7 +25,7 @@ y_a = bedheight/y; //the amount of y's in height
 bed31.style.height = (bedheight/10) + 'px';
 bed31.style.top = (y_a *(4.5)) + 'px';
 bed31.style.width = (bedwidth/20) + 'px';
-bed31.style.left = -(x_a *(.02)) +'%';
+bed31.style.left = -(x_a *(.01)) +'%';
 
 bed29.style.height = (bedheight/10) + 'px';
 bed29.style.top = (y_a *(5.2)) + 'px';
