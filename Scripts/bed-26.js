@@ -12,12 +12,13 @@ let rainbow_text = document.getElementById('rainbow_text');
 let lettuce = document.getElementById('lettuce');
 let lettuce_text = document.getElementById('lettuce_text');
 let beds = document.getElementById('twentysix')
-let imag26 = document.getElementById('imag-26');
+
 let bedheight = beds.clientHeight;
 let bedwidth = beds.clientWidth;
 x = 15
 y = 11.5
 
+let imag26 = document.getElementById('imag-26');
 if(window.innerWidth < 580) {
     
     let iwidth = 370;

@@ -101,7 +101,7 @@ ul {
 }
 
 .greenhouse {
-    background-image: url('../Images/greenhouse.JPG');
+    background-image: url('../Images/front-greenhouse.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -166,6 +166,52 @@ ul {
     
 }
 
+.left-greenhouse {
+    background-image: url('../Images/left-greenhouse.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+ 
+    width: 1858px;
+    aspect-ratio: 1858/737;
+    position: absolute;
+    top: 200px;
+}
+
+.back-greenhouse {
+    background-image: url('../Images/back-greenhouse.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+   
+    width: 1858px;
+    aspect-ratio: 1858/737;
+    position: absolute;
+    top: 200px;
+}
+
+.right-greenhouse {
+    background-image: url('../Images/right-greenhouse.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+   
+    width: 1858px;
+    aspect-ratio: 1858/737;
+    position: absolute;
+    top: 200px;
+}
+
+
 .bg {
     background-color: #fff;
 }
@@ -214,6 +260,27 @@ ul {
     border: 3px solid #ff0000;
 }
 
+.greenhouse-back {
+    position: relative;
+    
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
+.greenhouse-right {
+    position: relative;
+    
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
+.greenhouse-left {
+    position: relative;
+    
+    border-radius: 40%;
+    border: 3px solid #ff0000;
+}
+
 .clickable{
     background-color: #ffffff;
 }
@@ -235,7 +302,7 @@ ul {
 .centre{
     justify-self: left;
     justify-content: left;
-    border: 5px double rgb(130, 187, 207);
+    
    
 }
 
@@ -309,6 +376,64 @@ ul {
     z-index: 2000;
 }
 
+.parsley {
+    position: relative;
+    
+    width: 7%;
+    height: 10%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.rocket {
+    position: relative;
+    
+    width: 7%;
+    height: 10%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.basil {
+    position: relative;
+    
+    width: 7%;
+    height: 10%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.zucchini {
+    position: relative;
+    
+    width: 7%;
+    height: 10%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.capsicum {
+    position: relative;
+    
+    width: 7%;
+    height: 10%;
+    border-radius: 30%;
+    border: 3px solid #ff0000;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+
+
+
 .main{
     margin: 30px;
     display: none;
@@ -324,6 +449,10 @@ ul {
 
 .large{
     font-size: 18pt;
+}
+
+.lesslarge {
+    font-size: 14pt;
 }
 
 .hidden {
@@ -411,6 +540,17 @@ ul {
     .bed-twenty-six {
         width: 1000px;
     }
+
+    .left-greenhouse {
+        width: 1000px
+    }
+
+    .back-greenhouse {
+        width: 1000px;
+    }
+    .right-greenhouse {
+        width: 1000px;
+    }
 }
 
 
@@ -438,6 +578,10 @@ ul {
         font-size: 12pt;
     }
 
+    .lesslarge {
+        font-size: 10pt;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -461,6 +605,25 @@ ul {
         justify-content: left;
     }
 
+    .left-greenhouse {
+        background-image: none;
+        justify-content: left;
+    }
+
+    .back-greenhouse{
+        background-image: none;
+        justify-content: left;
+    }
+    
+    .right-greenhouse {
+        background-image: none;
+        justify-content: left;
+    }
+
+    .greenhouse {
+        background-image: none;
+        justify-content: left;
+    }
     .imag {
         display: block;
     }
