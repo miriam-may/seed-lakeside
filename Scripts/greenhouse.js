@@ -16,7 +16,7 @@ let imagleft = document.getElementById('green-imag')
 if(window.innerWidth < 580) 
 {
     
-    let iwidth = 570;
+    let iwidth = 580;
     let iheight = imagleft.clientHeight;
    
     back.style.height = (iwidth/20) + 'px';
