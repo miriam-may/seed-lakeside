@@ -121,16 +121,12 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    
     justify-self: center;
-    justify-content: center;
-    /*width: 1008px;
-    height: 737px;*/
-   
+    justify-content: center;  
     width: 100%;
     aspect-ratio: 1858/900;
     position: relative;
-    /*top: 200px;*/
+   
 }
 
 .bed-twenty-nine {
@@ -141,13 +137,10 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
-    /*width: 1008px;
-    height: 737px;*/
-   
     width: 100%;
     aspect-ratio: 1858/900;
     position: relative;
-    /*top: 200px;*/
+   
 }
 
 .bed-thirty-one {
@@ -158,15 +151,10 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
-    /*width: 1008px;
-    height: 737px;*/
-    
-    /*top: 200px;
-    left: 0%;*/
     width: 100%;
     aspect-ratio: 1858/900;
     position: relative;
-    /*top: 200px;*/
+   
     
 }
 
@@ -284,7 +272,7 @@ ul {
     border: 2px solid #ff0000;
 }
 
-.greenhouse-right {
+.greenhouse-left {
     position: absolute;
     top: 48%;
     left: 20%;
@@ -294,7 +282,7 @@ ul {
     border: 2px solid #ff0000;
 }
 
-.greenhouse-left {
+.greenhouse-right {
     position: absolute;
     top: 48%;
     left: 80%;
@@ -523,7 +511,7 @@ ul {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 800px;
+    top: 200px;
 }
 
 
@@ -549,7 +537,7 @@ ul {
 .hide{
     display: none;
     position: relative;
-    top: 800px;
+    
 }
 
 .hidecelery{

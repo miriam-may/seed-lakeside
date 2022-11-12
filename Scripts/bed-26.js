@@ -13,14 +13,6 @@ let lettuce = document.getElementById('lettuce');
 let lettuce_text = document.getElementById('lettuce_text');
 let beds = document.getElementById('twentysix')
 
-let bedheight = beds.clientHeight;
-let bedwidth = beds.clientWidth;
-x = 15
-y = 11.5
-
-let imag26 = document.getElementById('imag-26');
-
-
 function revealRainbow(){
     if(lettuce_text.style.display="block"){
         lettuce_text.style.display="none";

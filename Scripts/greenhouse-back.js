@@ -13,10 +13,6 @@ let zucchini = document.getElementById('zucchini');
 let zucchini_text = document.getElementById('zucchini-text');
 let beds = document.getElementById('back');
 
-let bedheight = beds.clientHeight;
-let bedwidth = beds.clientWidth;
-
-
 function revealbasil()
 {
     if (zucchini_text.style.display='block')

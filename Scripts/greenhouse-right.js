@@ -10,11 +10,6 @@ let banner = document.getElementById('home_banner')
 let capsicum = document.getElementById('capsicum');
 let capsicum_text = document.getElementById('capsicum-text');
 
-let beds = document.getElementById('right');
-
-let bedheight = beds.clientHeight;
-let bedwidth = beds.clientWidth;
-
 function revealcapsicum()
 {
 
