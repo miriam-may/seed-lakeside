@@ -16,51 +16,6 @@ let beds = document.getElementById('left');
 let bedheight = beds.clientHeight;
 let bedwidth = beds.clientWidth;
 
-let imagleft = document.getElementById('imag-left');
-if(window.innerWidth < 580) 
-{
-    
-    let iwidth = 370;
-    let iheight = imagleft.clientHeight;
-   
-    parsley.style.height = (iwidth/7) + 'px';
-    parsley.style.top = (iheight/1.5) + 'px';
-    parsley.style.width = (iwidth/7) + 'px';
-    parsley.style.left = -(iwidth/1.2) +'px';
-
-    rocket.style.height = (iwidth/7) + 'px';
-    rocket.style.top = (iheight/1.25) + 'px';
-    rocket.style.width = (iwidth/7) + 'px';
-    rocket.style.left = -(iwidth/2.9) +'px';
-
-    
-
-    } else {
-
-
-parsley.style.top = (bedheight/1.5) + 'px';
-parsley.style.left = -(bedwidth/11) +'px';
-
-rocket.style.top = (bedheight/1.2) + 'px';
-rocket.style.left = (bedwidth/6) +'px';
-
-function wresize() 
-{
-    let bedheight = beds.clientHeight;
-    let bedwidth = beds.clientWidth;
-
-
-    parsley.style.top = (bedheight/1.5) + 'px';
-    parsley.style.left = -(bedwidth/11) +'px';
-
-    rocket.style.top = (bedheight/1.2) + 'px';
-    rocket.style.left = -(bedwidth/6) +'px';
-}
-
-window.onresize = wresize;
-
-
-}
 
 function revealparsley()
 {

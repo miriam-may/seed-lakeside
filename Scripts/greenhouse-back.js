@@ -16,51 +16,6 @@ let beds = document.getElementById('back');
 let bedheight = beds.clientHeight;
 let bedwidth = beds.clientWidth;
 
-let imagleft = document.getElementById('imag-left');
-if(window.innerWidth < 580) 
-{
-    
-    let iwidth = 370;
-    let iheight = imagleft.clientHeight;
-   
-    basil.style.height = (iwidth/7) + 'px';
-    basil.style.top = (iheight/2.3) + 'px';
-    basil.style.width = (iwidth/7) + 'px';
-    basil.style.left = -(iwidth/1.2) +'px';
-
-    zucchini.style.height = (iwidth/7) + 'px';
-    zucchini.style.top = (iheight/2.25) + 'px';
-    zucchini.style.width = (iwidth/7) + 'px';
-    zucchini.style.left = -(iwidth/1.8) +'px';
-
-    
-
-    } else {
-
-
-basil.style.top = (bedheight/2.3) + 'px';
-basil.style.left = -(bedwidth/11) +'px';
-
-zucchini.style.top = (bedheight/2.3) + 'px';
-zucchini.style.left = (bedwidth/15) +'px';
-
-function wresize() 
-{
-    let bedheight = beds.clientHeight;
-    let bedwidth = beds.clientWidth;
-
-
-    basil.style.top = (bedheight/1.5) + 'px';
-    basil.style.left = -(bedwidth/11) +'px';
-
-    zucchini.style.top = (bedheight/1.2) + 'px';
-    zucchini.style.left = -(bedwidth/6) +'px';
-}
-
-window.onresize = wresize;
-
-
-}
 
 function revealbasil()
 {

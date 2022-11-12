@@ -97,6 +97,8 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
+    width: 100%;
+    position: relative;
     aspect-ratio: 1858/737;
 }
 
@@ -108,6 +110,7 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
+    position: relative;
     aspect-ratio: 1858/737;
 }
 
@@ -123,10 +126,10 @@ ul {
     /*width: 1008px;
     height: 737px;*/
    
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
 }
 
 .bed-twenty-nine {
@@ -140,10 +143,10 @@ ul {
     /*width: 1008px;
     height: 737px;*/
    
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
 }
 
 .bed-thirty-one {
@@ -159,10 +162,10 @@ ul {
     
     /*top: 200px;
     left: 0%;*/
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
     
 }
 
@@ -175,10 +178,10 @@ ul {
     justify-self: center;
     justify-content: center;
  
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
 }
 
 .back-greenhouse {
@@ -190,10 +193,10 @@ ul {
     justify-self: center;
     justify-content: center;
    
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
 }
 
 .right-greenhouse {
@@ -205,10 +208,10 @@ ul {
     justify-self: center;
     justify-content: center;
    
-    width: 1858px;
+    width: 100%;
     aspect-ratio: 1858/737;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    /*top: 200px;*/
 }
 
 
@@ -241,44 +244,63 @@ ul {
 
 
 .link {
-    position: relative;
+    position: absolute;
+    left: 41%;
+    top: 44%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
+    width: 7%;
+    height: 7%;
 }
 
 .bed-26 {
-    position: relative;
-    
+    position: absolute;
+    left: 33%;
+    top: 48%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
+    width: 7%;
+    height: 7%;
 }
 
 .bed-29 {
-    position: relative;
-    
+    position: absolute;
+    left: 65%;
+    top: 49%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
+    width: 7%;
+    height: 7%;
 }
 
 .greenhouse-back {
-    position: relative;
-    
+    position: absolute;
+    top: 43%;
+    left: 47%;
+    width: 4%;
+    height: 6%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .greenhouse-right {
-    position: relative;
-    
+    position: absolute;
+    top: 48%;
+    left: 57%;
+    width: 4%;
+    height: 6%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .greenhouse-left {
-    position: relative;
-    
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    width: 4%;
+    height: 6%;
     border-radius: 40%;
-    border: 3px solid #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .clickable{
@@ -302,8 +324,6 @@ ul {
 .centre{
     justify-self: left;
     justify-content: left;
-    
-   
 }
 
 .smlmargin{
@@ -321,53 +341,71 @@ ul {
 }
 
 .spring-onion {
-    position: relative;
+    position: absolute;
+    left: 32%;
+    top: 18%;
     cursor: pointer;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    
+    width: 5%;
+    height: 7%;
     z-index: 2000;
 }
 
 .silver-beet {
-    position: relative;
-   cursor: pointer;
+    position: absolute;
+    left: 46%;
+    top: 30%;
+    cursor: pointer;
     border-radius: 30%;
     border: 3px solid #ff0000;
-   
+    width: 5%;
+    height: 7%;
     z-index: 2000;
 }
 
 .beetroot {
-    position: relative;
+    position: absolute;
+    top: 43%;
+    left: 66%;
     cursor: pointer;
     border-radius: 30%;
     border: 3px solid #ff0000;
-    
+    width: 5%;
+    height: 7%;
     z-index: 2000;
 }
 
 .rainbow-chard{
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 45%;
     cursor: pointer;
     border-radius: 30%;
     border: 3px solid #ff0000;
+    width: 5%;
+    height: 7%;
    
     z-index: 2000;
 }
 
 .lettuce {
-    position: relative;
+    position: absolute;
+    left: 70%;
+    top: 65%;
     cursor: pointer;
     border-radius: 30%;
     border: 3px solid #ff0000;
+    width: 5%;
+    height: 7%;
    
     z-index: 2000;
 }
 
 .celery {
-    position: relative;
-    
+    position: absolute;
+    left: 50%;
+    top: 18%;
     width: 10%;
     height: 20%;
     border-radius: 30%;
@@ -377,10 +415,11 @@ ul {
 }
 
 .parsley {
-    position: relative;
-    
-    width: 7%;
-    height: 10%;
+    position: absolute;
+    left: 34%;
+    top: 63%;
+    width: 5%;
+    height: 8%;
     border-radius: 30%;
     border: 3px solid #ff0000;
     cursor: pointer;
@@ -388,10 +427,11 @@ ul {
 }
 
 .rocket {
-    position: relative;
-    
-    width: 7%;
-    height: 10%;
+    position: absolute;
+    left: 66%;
+    top: 80%;    
+    width: 5%;
+    height: 8%;
     border-radius: 30%;
     border: 3px solid #ff0000;
     cursor: pointer;
@@ -399,10 +439,11 @@ ul {
 }
 
 .basil {
-    position: relative;
-    
-    width: 7%;
-    height: 10%;
+    position: absolute;
+    top: 43%;
+    left: 36%;
+    width: 5%;
+    height: 8%;
     border-radius: 30%;
     border: 3px solid #ff0000;
     cursor: pointer;
@@ -410,10 +451,11 @@ ul {
 }
 
 .zucchini {
-    position: relative;
-    
-    width: 7%;
-    height: 10%;
+    position: absolute;
+    top: 43%;
+    left: 56%;
+    width: 5%;
+    height: 8%;
     border-radius: 30%;
     border: 3px solid #ff0000;
     cursor: pointer;
@@ -421,18 +463,16 @@ ul {
 }
 
 .capsicum {
-    position: relative;
-    
-    width: 7%;
-    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 5%;
+    height: 8%;
     border-radius: 30%;
     border: 3px solid #ff0000;
     cursor: pointer;
     z-index: 2000;
 }
-
-
-
 
 .main{
     margin: 30px;
@@ -527,33 +567,32 @@ ul {
     display: block;
 }
 
-@media (max-width: 1080px){
-
-    .bed-thirty-one{
-        width: 1000px;
+@media (max-width: 1080px) {
+    .banner {
+        font-size: 16pt;
     }
 
-    .bed-twenty-nine {
-        width: 1000px;
+    .nav-link {
+        font-size: 12pt;
+        padding: 10px;
     }
 
-    .bed-twenty-six {
-        width: 1000px;
+    .footer {
+        font-size: 10pt;
     }
 
-    .left-greenhouse {
-        width: 1000px
+    .header {
+        font-size: 22pt;
     }
 
-    .back-greenhouse {
-        width: 1000px;
+    .large {
+        font-size: 14pt;
     }
-    .right-greenhouse {
-        width: 1000px;
+
+    .lesslarge {
+        font-size: 12pt;
     }
 }
-
-
 
 @media (max-width: 580px) {
 
@@ -581,56 +620,6 @@ ul {
     .lesslarge {
         font-size: 10pt;
     }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .hidden {
-        display: block;
-    }
-
-    .bed-thirty-one{
-        background-image: none;
-        justify-content: left;
-    }
-
-    .bed-twenty-nine {
-        background-image: none;
-        justify-content: left;
-    }
-
-    .bed-twenty-six {
-        background-image: none;
-        justify-content: left;
-    }
-
-    .left-greenhouse {
-        background-image: none;
-        justify-content: left;
-    }
-
-    .back-greenhouse{
-        background-image: none;
-        justify-content: left;
-    }
-    
-    .right-greenhouse {
-        background-image: none;
-        justify-content: left;
-    }
-
-    .greenhouse {
-        background-image: none;
-        justify-content: left;
-    }
-    .imag {
-        display: block;
-    }
-
-   
-    
 }
-
 
 
