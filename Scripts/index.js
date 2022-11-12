@@ -7,7 +7,7 @@ window.onload = function(){
         duration: 2000,
         iterations: 1
     })
-let firstP = document.getElementById('t1')
+let firstP = document.getElementById('text1')
 let secondP = document.getElementById('t2')
 
 firstP.animate([
