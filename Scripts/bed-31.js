@@ -8,29 +8,29 @@ let banner = document.getElementById('home_banner')
     })
 
 
-let building = document.getElementById('building');
-let buildingtext = document.getElementById('building_text');
-let maintenence = document.getElementById('maintenence');
-let maintext = document.getElementById('main_text');
-let frontend = document.getElementById('front_end');
-let fronttext = document.getElementById('front_text');
+let spring_onion = document.getElementById('spring_onion');
+let spring_onion_text = document.getElementById('spring_onion_text');
+let silverbeet = document.getElementById('silverbeet');
+let silverbeet_text = document.getElementById('silverbeet_text');
+let beetroot = document.getElementById('beetroot');
+let beetroot_text = document.getElementById('beetroot_text');
 
 let beds = document.getElementById('thirtyone')
 
 
 function revealBuild(){
-        if(maintext.style.display = "block"){
-            maintext.style.display = "none";
+        if(silverbeet_text.style.display = "block"){
+            silverbeet_text.style.display = "none";
         };
-        if(fronttext.style.display='block'){
-            fronttext.style.display='none'
+        if(beetroot_text.style.display='block'){
+            beetroot_text.style.display='none'
         };
        
-        buildingtext.style.display="block";
-        buildingtext.style.position="relative";
-        buildingtext.scrollIntoView({behavior: 'smooth'});
+        spring_onion_text.style.display="block";
+        spring_onion_text.style.position="relative";
+        spring_onion_text.scrollIntoView({behavior: 'smooth'});
 
-        buildingtext.animate([
+        spring_onion_text.animate([
             {opacity: 0, color:'#000000'},
             {opacity: 1, color: '#000000'}
         ],{
@@ -42,18 +42,18 @@ function revealBuild(){
 }
 
 function revealMain(){
-    if(buildingtext.style.display = "block"){
-        buildingtext.style.display = "none";
+    if(spring_onion_text.style.display = "block"){
+        spring_onion_text.style.display = "none";
     };
-    if(fronttext.style.display='block'){
-        fronttext.style.display='none'
+    if(beetroot_text.style.display='block'){
+        beetroot_text.style.display='none'
     };
   
-    maintext.style.display="block";
-    maintext.style.position="relative";
-    maintext.scrollIntoView({behavior: 'smooth'});
+    silverbeet_text.style.display="block";
+    silverbeet_text.style.position="relative";
+    silverbeet_text.scrollIntoView({behavior: 'smooth'});
 
-    maintext.animate([
+    silverbeet_text.animate([
         {opacity: 0, color:'#000000'},
         {opacity: 1, color: '#000000'}
     ],{
@@ -64,17 +64,17 @@ function revealMain(){
 }
 
 function revealFront(){
-    if(buildingtext.style.display = "block"){
-        buildingtext.style.display = "none";
+    if(spring_onion_text.style.display = "block"){
+        spring_onion_text.style.display = "none";
     };
-    if(maintext.style.display = "block"){
-        maintext.style.display = "none";
+    if(silverbeet_text.style.display = "block"){
+        silverbeet_text.style.display = "none";
     };
   
-    fronttext.style.display="block";
-    fronttext.style.position="relative";
-    fronttext.scrollIntoView({behavior: 'smooth'});
-    fronttext.animate([
+    beetroot_text.style.display="block";
+    beetroot_text.style.position="relative";
+    beetroot_text.scrollIntoView({behavior: 'smooth'});
+    beetroot_text.animate([
         {opacity: 0, color:'#000000'},
         {opacity: 1, color: '#000000'}
     ],{
@@ -88,6 +88,6 @@ function revealFront(){
 
 
 
-building.onclick = revealBuild, true;
-maintenence.onclick =  revealMain, true;
-frontend.onclick = revealFront, true;
+spring_onion.onclick = revealBuild, true;
+silverbeet.onclick =  revealMain, true;
+beetroot.onclick = revealFront, true;

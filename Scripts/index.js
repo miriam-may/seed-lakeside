@@ -7,10 +7,10 @@ window.onload = function(){
         duration: 2000,
         iterations: 1
     })
-let firstP = document.getElementById('text1')
-let secondP = document.getElementById('t2')
+let paragraph_one = document.getElementById('text1')
+let paragraph_two = document.getElementById('text2')
 
-firstP.animate([
+paragraph_one.animate([
     {opacity: 0, color:'#000000'},
     {opacity: 1, color: '#000000'}
 ],{
@@ -18,9 +18,9 @@ duration: 1700,
 iterations: 1
 })
 
-firstP.style.display="block"
+paragraph_one.style.display="block"
 
-secondP.animate([
+paragraph_two.animate([
     {opacity: 0, color:'#000000'},
     {opacity: 1, color: '#000000'}
 ],{
@@ -28,7 +28,7 @@ duration: 2000,
 iterations: 1
 })
 
-secondP.style.display="block"
+paragraph_two.style.display="block"
 
 
 }
